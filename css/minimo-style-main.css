@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  color: rgb(175, 175, 177);
+}
+
+img {
+  max-width: 100%;
+}
+.mainContainer {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 40px;
+  max-width: 100%;
+
+  overflow: hidden;
+}
+#logo {
+  width: 20%;
+  float: left;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+#menu-bar {
+  width: 80%;
+  float: left;
+  padding: 10px 0;
+  padding-left: 165px;
+  box-sizing: border-box;
+}
+
+#menu-bar .manus {
+  list-style-type: none;
+  display: flex;
+}
+#menu-bar .manus li {
+  text-transform: uppercase;
+  padding-left: 70px;
+}
+.main-content {
+  width: 80%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+.text-content {
+  padding-bottom: 20px;
+}
+.blog-content {
+  margin: 50px auto;
+}
+
+.main-content .text-content h5 {
+  padding: 15px 0;
+}
+.main-content .text-content h2 {
+  padding-bottom: 20px;
+}
+.main-content .text-content p {
+  padding-bottom: 25px;
+}
+.blog-content .blog-post h5 {
+  padding: 15px 0;
+}
+.blog-content .blog-post h2 {
+  padding-bottom: 20px;
+}
+.blog-content .blog-post p {
+  padding-bottom: 25px;
+}
+.blog-content .blog-post img {
+  width: 375px;
+}
+.blog-post {
+  width: 50%;
+  padding-right: 25px;
+  box-sizing: border-box;
+  float: left;
+}
+.padding-zero {
+  padding-right: 0;
+}
+footer {
+  background-color: rgb(220, 220, 221);
+  height: 50px;
+}
+.leftPages {
+  width: 50%;
+  float: left;
+}
+.leftPages ul {
+  display: flex;
+  list-style: none;
+  padding: 15px 0;
+}
+.leftPages ul li {
+  padding: 0 10px;
+}
+.rightPages {
+  width: 50%;
+  padding-left: 380px;
+  float: left;
+  box-sizing: border-box;
+}
+.rightPages ul {
+  display: flex;
+  list-style: none;
+  padding: 15px 0;
+}
+.rightPages ul li i {
+  padding: 0 5px;
+}
